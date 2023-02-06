@@ -1,0 +1,46 @@
+main, nav {
+  display: flex;
+  align-items: center;
+}
+
+nav {
+  justify-content: center;
+}
+
+nav a {
+  padding: 5px;
+  text-decoration: none;
+}
+
+main {
+  flex-direction: column;
+}
+
+main h1 {
+  font-size: 50px;
+  font-weight: bolder;
+  padding-bottom: 10px;
+}
+
+main h2 {
+  font-size: 18px;
+}
+
+svg {
+  margin-top: 15px;
+  margin-bottom: 50px;
+}
+
+tspan {
+  font-size: 10px;
+}
+
+#tooltip {
+  background-color: rgba(255, 255, 0, 0.7);
+  opacity: 0;
+  border-radius: 20px;
+  position: absolute;
+  padding: 10px;
+  text-align: center;
+  font-weight: bold;
+}
